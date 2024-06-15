@@ -22,7 +22,7 @@ body{
 
 
 .container{
-    width: 30rem;
+    width: 40rem;
     background: #fff;
     padding: 2rem;
     display: flex;
@@ -128,4 +128,10 @@ body{
 
 .list_item_container li span:hover{
     background: #edeef0;
+}
+
+@media (max-width: 540px) {
+    html{
+        font-size: 70%;
+    }
 }
